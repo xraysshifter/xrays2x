@@ -1,50 +1,183 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,800;1,400&display=swap');
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
-
 *{
 }
 
 body{
-    margin:0;
+    color: white;
+    margin:0; 
     padding:0;    
     font-size : 10px; 
-    font-family:'Fira Code';
-//    background:#2d3436;
+    font-family:'Courier';
+    background-image: url(./background2.gif);
 }
 
+.extlinkcontainer {
+    background-color: black ;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: #00FF41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.extlinkcontainer h1{
+    font-size: 1.7em;
+    text-align:center;
+    justify-content: center;
+    align-content: center;
+}
+
+.presentation {
+    border-style: dashed;
+    border-color: #00FD82;
+    border-width: 1px;
+  background: linear-gradient(to right, #00FF41, #00FD82);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.presentation {
+    animation: blinker 2s linear infinite;
+}
+
+
+@keyframes blinker {
+    50%{
+        opacity: 50%
+    }
+}
+
+.marquees {
+  font-size: 1em;
+  background: linear-gradient(to right, #00FF41, #00FD82);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 15s linear infinite;
+}
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.marquees {
+    animation:blinker 2s ease infinite
+}
+
+@keyframes blinker {
+    50%{
+        opacity : 50%;
+    }
+}
+
+
+.presentation h1{
+    font-size: 2.5em
+    justify-content: center;
+}
+
+#menu li {
+
+    font-family: 'Courier' ;
+    
+
+}
+
+
 #menu ul {
-    list-style: none;
+    
+    background-color:  black;
+    color: white;
+    list-style: disc;
     margin:0;
     padding:10px 20px;
+    filter: brightness(1.0);
 }
 
 #menu ul li {
+    color: white;
     display:inline-block;
     margin-right:20px;
 }
 
 #menu ul li:first-of-type {
+    color: white;
     font-size:2em;
 }
 
     
 #menu ul li a{
-    color: #000000;
+    color: white;
     text-decoration : none;
     font-size : 2em;
 }
 
-a:hover{
-    color:#95a5a6 !important;
+#menu ul li a:hover{
+    font-size: 2.2em;
+    color: #00FF41;
+    font-family: 'Courier';
+    font-style: italic;
 }
 
+
+#menu .r_index{
+    border: 5px dotted white;
+    font-size: 2em;
+    color: #00FF41;
+    font-family: 'Courier';
+    font-style: inherit;
+    float: right;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu .r_index a:hover{
+    
+    font-size: 2.1em;
+    background-color: #00FF41;
+    color: white;
+    font-family: 'Courier';
+    font-style: italic;
+
+}
+
+
+
 #articles ul {
+    color: white;
     list-style:none;
     padding:0 0 0 0px;
 }
 
+
 #articles ul li{
+    color: white;
     font-size:1.5em;
     padding:10px 0;
     padding-left:20px;
@@ -52,10 +185,16 @@ a:hover{
 }
 
 #articles ul li h2{
+    color: #00FF41;
     display: inline-block;
     margin:0;
     font-size:1.5em;
     padding-left:50px;
+}
+
+#articles h2 a: hover{
+    color: whitesmoke;
+    font-size: 15px;
 }
 
 
@@ -64,6 +203,7 @@ ul li h2{
     position:relative;
     }
 ul li h2:before{
+    color: white;
     position:absolute;
     text-align:center;
     left:-20px;
@@ -74,29 +214,37 @@ ul li h2:before{
     line-height:1em;
 }
 
-.robot:before{
-    content:"🤖";
+#articles h2:hover{
+    color: whitesmoke;
+    font-size: 25px
 }
 
-.various:before{
-    content:"💾";
+.dechetsnation:before{
+    content:"✜";
+}
+
+.razzia909:before{
+    content: "☣";
+}
+
+.miscellaneous:before{
+    size: !important;
+    content:"🗺";
 }
 .internet:before{
-    content:"🛰";
-}
-
-.linux:before{
-    content:"🐧";
+    content:"🖥";
 }
 
 #articles ul li a {
-    color : #000000;
+    color: white;
     text-decoration:none;
 }
 #articles ul li a:hover {
-    color : #0000ff;
+    color : #00FF41;
+    font-size: 19px;
 }
 #articles h2{
+
     padding-right:20px;
 }
 #articles ul li span {
@@ -106,6 +254,7 @@ ul li h2:before{
     margin-left:10px;
 }
 #content-wrapper{
+    color: white;
     width:90%;
     margin:auto ;
     font-size:2.5em!important;
@@ -113,6 +262,16 @@ ul li h2:before{
 
 #content-wrapper p{
     text-align:left;
+    padding: 50px;
+}   
+
+#content-wrapper a{
+    color: white;
+}     
+#content-wrapper p a:hover{
+    color: #00FF41;
+    font-size: 27px;
+
 }    
 
 #content-wrapper pre{
@@ -128,31 +287,38 @@ ul li h2:before{
 #content-wrapper h1{
     font-size : 52px;
     margin: 20px 0 0 0 ;
+    color : #00FF41 ;
 }
 
 #metad{
+    color: white;
     margin: 5px 0 30px 0;
 }
 
 #metad span {
+    color: white;
     font-size : 2em;
 }
 
 #metad span:after{
+    color: white;
     content:" / ";
     margin: 0 20px 0 20px;
 
 
 }
 #metad .cat {
+    color: white;
     font-weight: bolder;
 }
 
 #metad .author {
+    color: white;
     font-style: italic;
 }
 
 #metad .date {
+    color: white;
 }
 
 
@@ -180,6 +346,7 @@ p em img{
 
 
 p{
+    color: white;
     line-height:1.5em;
     margin-top:1.5em;
     margin-bottom:1.5em;
@@ -187,40 +354,95 @@ p{
 //    font-size:2em;
 }
 
+
+#menuschool
+
+#menuschool li {
+    font-family: 'Arial' ;
+    
+
+}
+
+
+#menuschool ul {
+    
+    background-color:  black;
+    color: white;
+    list-style: disc;
+    margin:0;
+    padding:10px 20px;
+    filter: brightness(1.0);
+}
+
+#menuschool ul li {
+    color: white;
+    display:inline-block;
+    margin-right:20px;
+}
+
+#menuschool ul li:first-of-type {
+    color: white;
+    font-size:2em;
+}
+
+    
+#menuschool ul li a{
+    color: white;
+    text-decoration : none;
+    font-size : 2em;
+}
+
+#menuschool ul li a:hover{
+font-size: 2.2em;
+color: #00FF41;
+font-family: 'Courier';
+font-style: italic;
+}
+
+
 #gal {
-	display : grid ;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	column-gap: 10px;
-	row-gap: 10px;
+    display : grid ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
 }
 
 
 .img_container {
-	position: relative;
-	overflow: hidden;
-	height: 120px;
-	display: grid;
-	align-content: center;
-	align-items: center;
-	justify-items: center;
-	justify-content: center;
-	align-items: center;
-	align-content: space-around;
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
 }
 
 .img_container img{
-	width:200%;
+    
+    width:100%;
 }
 
+
+
+
+
 .fullImg{
-	grid-column: span 4;
-	height: auto!important;
+    grid-column: span 5;
+    height: auto !important;
+
+    width:100%;
+    
 }
 
 .fullImg img{
-	width:100%;
-}
+    width: 100%;
 
+    
+}
 
 key{
     padding:1px 6px;
@@ -236,7 +458,7 @@ key{
 }
 
 
-@media (max-width: 600px) {
+@media (max-width:  (500px) {
        
     #articles ul li span {
         display:none;
@@ -255,4 +477,5 @@ key{
     }
 
 }
+
 

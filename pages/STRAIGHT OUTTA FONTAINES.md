@@ -1,0 +1,8 @@
+title : STRAIGHT OUTTA FONATINES 
+cat : razzia909
+published : 2022-10-08
+
+
+# [STRAIGHT OUTTA FONTAINES](https://www.youtube.com/watch?v=ZDKjuvcYreM&ab_channel=RAZZIA909) :
+
+En Octobre 2022 parvient sur la [chaîne youtube de razzia909](https://www.youtube.com/@razzia9099) l'EP STRAIGHT OUTTA FONTAINES, également mon premier, qui retraces une partie de mon activité musicale de Janvier 2022 à Juillet 2022, on y trouve une ambiance assez.... fontainoise... (ville dans laquelle je résidais près de lyon blablablaa..). Cette période se trouve agrémentée de bouncy and happy acid, globalement une inspiration générale tirée du compositeur [Andy Jenkinson](https://fr.wikipedia.org/wiki/Ceephax_Acid_Crew), de qui je tires de grandes influences (on a serré sa main un jour et croyez moi ça fait quelque chose...), de par son idée d'exploration de la TB-303 comme un outil particulièrement global, permettant de faire sortir des ambiances très diverses. Il s'agissait pour moi ici d'assumer une exploration de 2 années de musique analogie, par le biais d'interfaces analogiques comme la [MC307](https://fr.audiofanzine.com/groove-machine/roland/mc-307/) [MC808](https://fr.audiofanzine.com/sequenceur-sampleur/roland/mc-808/), ainsi que de drum machines/ synthés [RD-9 (special thanks to behringher)](https://fr.audiofanzine.com/bar/behringer/rd-909/) [TD-3](https://fr.audiofanzine.com/synthe-analogique/behringer/td-3/) et enfin [BEHRINGHER NEUTRON](https://fr.audiofanzine.com/rack-analogique/behringer/neutron/). Gare à vos oreilles car le mastering n'est pas au rendez-vous, et d'ailleurs tant mieux parce que plus c'est crade mieux c'est, et la 303 risque de vous ruiner les tympans :).
