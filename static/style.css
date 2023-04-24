@@ -231,8 +231,8 @@ ul li h2:before{
     size: !important;
     content:"🗺";
 }
-.internet:before{
-    content:"🖥";
+.xrayshapeshifting:before{
+    content:"xR";
 }
 
 #articles ul li a {
@@ -266,7 +266,7 @@ ul li h2:before{
 }   
 
 #content-wrapper a{
-    color: white;
+    color: whitesmoke;
 }     
 #content-wrapper p a:hover{
     color: #00FF41;
@@ -285,9 +285,15 @@ ul li h2:before{
 }
 
 #content-wrapper h1{
-    font-size : 52px;
+    font-size : 60px;
     margin: 20px 0 0 0 ;
     color : #00FF41 ;
+}
+
+#content-wrapper h2{
+    font-size : 30px;
+    margin: 20px 0 0 0 ;
+    color : #00FF80 ;
 }
 
 #metad{
